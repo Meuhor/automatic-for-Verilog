@@ -77,13 +77,13 @@ module example(
 	input wire rst, // reset
 	output wire out
 	);
-```verilog
+```
 
 use commandline, :Alpp, then An always block will be added under the cursor, looks like
 
 ```verilog
 always @(posedge clk or posedge rst) begin
-    if (rst_n) begin
+    if (rst) begin
     end
     else begin
     end

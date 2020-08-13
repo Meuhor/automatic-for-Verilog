@@ -1,12 +1,31 @@
 # Vim automaitc scripts for Verilog
 
+安装方法，使用vim plug, 添加
+
+```
+Plug 'Meuhor/automatic-for-Verilog'
+```
+到插件源。
+
+或下载plugin文件夹中的.vim添加到~/vimfiles/plugin/（Windows）或~/.vim/plugin/（Linux）文件夹。
+
 This page contains two files: Addalways.vim and automatic.vim.
+
+Use vim-plug to install, simply add 
+
+```
+Plug 'Meuhor/automatic-for-Verilog'
+```
+
+to Plugin source, or simply down the \*.vim files and drop them to ~/vimfiles/plugin/ (Windows) of ~/.vim/plugin/ (Linux).
 
 ## eetop_automatic.vim
 
-插件eetop_automatic.vim是由eetop用户[zhangguo1286](http://bbs.eetop.cn/thread-335755-1-1.html)在eetop上发布的，详细信息与用法请查看bbs链接内容。
+插件eetop_automatic.vim是由eetop用户[zhangguo1286](http://bbs.eetop.cn/thread-335755-1-1.html)在eetop上发布的，详细信息与用法请查看bbs链接内容。插件包括自动例化等功能。
 
 本Github页面上的插件修改了一些内容。
+
+如果您使用eetop，请前往bbs页面下载原插件代码和回帖，给予原作者支持，谢谢。
 
 The plugin eetop_automatic.vim is originally developed by [zhangguo1286 and published on eetop](http://bbs.eetop.cn/thread-335755-1-1.html). 
 

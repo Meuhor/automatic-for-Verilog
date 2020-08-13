@@ -23,7 +23,7 @@ to Plugin source, or simply down the \*.vim files and drop them to ~/vimfiles/pl
 
 插件eetop_automatic.vim是由eetop用户[zhangguo1286](http://bbs.eetop.cn/thread-335755-1-1.html)在eetop上发布的，详细信息与用法请查看bbs链接内容。插件包括自动例化等功能。
 
-本Github页面上的插件修改了一些内容。
+本Github页面上的插件修改了一些内容：添加了命令行调用，移除（注释了菜单入口），以及添加Always块的功能，保留了其他特性。
 
 如果您使用eetop，请前往bbs页面下载原插件代码和回帖，给予原作者支持，谢谢。
 

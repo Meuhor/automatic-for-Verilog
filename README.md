@@ -59,7 +59,7 @@ This scripts also contains Addalways method but the name of clock and reset sign
 
 Also, the menu entries and keybindings were removed and commandline were added. Other features remains unchanged.
 
-*Attention*: The eetop_automatic.vim plugin relies on ctags to work, which could be obtained on [Github ctas](https://github.com/universal-ctags/ctags) or by package manager if you're using Linux or Mac. Ctags-win32 build binaries could also be obtained on [Github ctags-win32](https://github.com/universal-ctags/ctags-win32). Make sure ctags was in the system path, the plugin automatically call ctags to generate tags if tags not exits.
+*Attention*: The eetop_automatic.vim plugin relies on ctags to work, which could be obtained on [Github ctas](https://github.com/universal-ctags/ctags) or by package manager if you're using Linux or Mac. Ctags-win32 build binaries could also be obtained on [Github ctags-win32](https://github.com/universal-ctags/ctags-win32). Make sure ctags was in the system path. The plugin automatically calls ctags to generate tags if tags not exits.
 
 ## Addalways.vim
 

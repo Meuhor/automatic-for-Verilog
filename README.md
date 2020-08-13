@@ -59,30 +59,7 @@ This scripts also contains Addalways method but the name of clock and reset sign
 
 Also, the menu entries and keybindings were removed and commandline were added. Other features remains unchanged.
 
-*Attention*: The eetop_automatic.vim plugin relies on ctags to work, which could be obtained on [Github ctas](https://github.com/universal-ctags/ctags) or by package manager if you're using Linux or Mac. Ctags-win32 build binaries could also be obtained on [Github ctags-win32](https://github.com/universal-ctags/ctags-win32). Make sure ctags was in the system path, and an *example (just for example, replace it if you found more efficient method to generate tags)* autocmd could be add to you ~/.vimrc (Linux) or ~/\_vimrc (Windows).
-
-example autocmd:
-
-```vimscripts
-"" ctags configuartion
-set autochdir
-set tags+=tags
-function GenerateTags()
-if !empty(glob("tags"))
-else
-	call UpdateTags()
-endif
-endfunction
-
-function! UpdateTags()
-  let cwd = getcwd()
-  let tagfilename = cwd . "/tags"
-  let cmd = 'ctags -R -f ' . tagfilename . ' --languages=Verilog,SystemVerilog --c++-kinds=+p --fields=+iaS --extra=+q '
-  let resp = system(cmd)
-endfunction
-autocmd BufWrite *.cpp,*.h,*.c,*.v,*.sv call UpdateTags()
-autocmd BufRead *.cpp,*.h,*.c,*.v,*.sv call GenerateTags()
-```
+*Attention*: The eetop_automatic.vim plugin relies on ctags to work, which could be obtained on [Github ctas](https://github.com/universal-ctags/ctags) or by package manager if you're using Linux or Mac. Ctags-win32 build binaries could also be obtained on [Github ctags-win32](https://github.com/universal-ctags/ctags-win32). Make sure ctags was in the system path, the plugin automatically call ctags to generate tags if tags not exits.
 
 ## Addalways.vim
 
